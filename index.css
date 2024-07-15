@@ -12,14 +12,25 @@ header{
     right:0;
  }
 .navbar-brand{
-    color: rgb(243, 58, 11);
+    /* color: rgba(243, 104, 11, 0.856); */
+    background: linear-gradient(red , yellow );
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
     position: absolute;
     padding: 50px 0px;
  }
 
+ /* #grad {
+    background-image: linear-gradient(red, yellow);
+  } */
+
+
+
 
 .navbar-light .navbar-nav .nav-link{
-    color: orange;
+    background: linear-gradient(red , yellow );
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
     font-size: 18px;
 }
 .navbar-light .nav-brand{
@@ -140,7 +151,7 @@ header{
     border: 1px solid  #465b52;
  }
  #form-details form button{
-    background-color:green;
+    background-color:rgba(10, 165, 75, 0.774);
     color: #fff;
  }
  #form-details .people div{
@@ -168,19 +179,11 @@ header{
  
  
 
-
-
-
-
-
-
-
-
 @media only screen and (max-width:600px){
     .navbar-collapse{
         background: white;
     }
 
-   
+ 
 }
 
