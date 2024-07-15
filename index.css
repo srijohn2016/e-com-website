@@ -1,5 +1,5 @@
 header{
-    background-image: url('img/bg\ img/ecom img4.jpg');
+    background-image: url('bg bannaer.jpg');
     height: 100vh;  
     min-height: 400px;
     background-size: cover;
@@ -13,7 +13,7 @@ header{
  }
 .navbar-brand{
     /* color: rgba(243, 104, 11, 0.856); */
-    background: linear-gradient(red , yellow );
+    background: linear-gradient(gold , red,blue);
     -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
     position: absolute;
@@ -28,10 +28,11 @@ header{
 
 
 .navbar-light .navbar-nav .nav-link{
-    background: linear-gradient(red , yellow );
+    /* background: linear-gradient(white ,black);
     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-    font-size: 18px;
+     -webkit-text-fill-color: transparent; */
+     color:whitesmoke;
+    font-size: 20px;
 }
 .navbar-light .nav-brand{
     color:white;
@@ -177,13 +178,31 @@ header{
     color: #000;
  }
  
- 
+/* #about,
+#services,
+#contact{
+   height:130px;
+   display: inline-block;
+   width: 100%;
+} */
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:600px){
     .navbar-collapse{
         background: white;
+      
     }
-
+    .nav-link{
+        color:black;
+    }
+  
  
 }
 
